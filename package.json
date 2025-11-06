@@ -1,0 +1,25 @@
+{
+  "name": "example-astro",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Astro example",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrobook/ui": "^0.10.0",
+    "@astrojs/preact": "^4.1.2",
+    "astro": "^5.15.3",
+    "astrobook": "0.10.0",
+    "preact": "^10.27.2"
+  },
+  "stackblitz": {
+    "installDependencies": false,
+    "startCommand": "pnpm install && pnpm run dev"
+  }
+}
