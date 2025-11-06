@@ -12,11 +12,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrobook/ui": "^0.10.0",
-    "@astrojs/preact": "^4.1.2",
-    "astro": "^5.15.3",
-    "astrobook": "0.10.0",
-    "preact": "^10.27.2"
+    "astro": "^5.15.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
   },
   "stackblitz": {
     "installDependencies": false,
